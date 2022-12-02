@@ -7,6 +7,7 @@ const contactlist = [];
 
 router.use(bodyParser.json());
 
+
 router.post("/", async (req, res) => {
     try {
         const newData = req.body;

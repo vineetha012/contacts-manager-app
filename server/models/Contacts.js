@@ -12,6 +12,7 @@ const contactSchema = new Schema({
     userRef: [{type: Schema.Types.ObjectId, ref: "User"}]
 });
 
+
 const ContactModel = mongoose.model('Contact', contactSchema);
 
 module.exports = ContactModel
