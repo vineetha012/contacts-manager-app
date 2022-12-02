@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.popup {
+   position: fixed;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   background-color: rgba(66, 64, 64, 0.38);
+   z-index: 1;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.inner-popup {
+    position: relative;
+    /* padding: 30px; */
+    width: 100%;
+    max-width: 345px;
+    height: 318px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3 {
+    margin: 10px auto;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1F2633;
+}
+
+p { 
+    margin: 18px auto;
+    font-size: 18px;
+    color: #2DA5FC;
+}
+
+.close-btn {
+    width: 124px;
+    height: 34px;
+    background-color: #2DA5FC;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin: 18px;
+}
+
+.img-container {
+    margin: 5px auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(45, 165, 252, 0.5);
+}
+
+img {
+    margin: 12px auto;
+}
+
+.checkedImg {
+    margin: 15px auto;
+}
+
+.importcomplete {
+    padding: 50px;
+}
+
+.deleteConfirmation {
+    padding: 50px 0px;
+}
+
+.deletecomplete {
+    padding: 100px 30px;
+}
+
+.checkImg-container {
+    padding-top: 5px;
+    text-align: center;
+}
